@@ -1,10 +1,10 @@
-FROM teamEiva/Eivabot:latest
+FROM errorshivansh/game-backup:latest
 
 #clonning repo 
-RUN git clone https://github.com/TeamEiva/Eiva-Userbot.git /root/Eivabot
+RUN git clone https://github.com/errorshivansh/Game-Backup.git /root/Game-backup
 
 #working directory 
-WORKDIR /root/Eivabot
+WORKDIR /root/game-backup
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
